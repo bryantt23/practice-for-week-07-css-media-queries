@@ -110,12 +110,19 @@ header {
 
 /* Your code here */
 @media print {
-  .page,
-  header {
-    visibility: hidden;
+  header,
+  .sidebar {
+    display: none;
+  }
+  .page {
+    display: flex;
+    flex-direction: row;
   }
   .story-box {
     visibility: visible;
     background-color: white;
+  }
+  .image-box {
+    visibility: visible;
   }
 }
