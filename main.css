@@ -109,3 +109,13 @@ header {
 /* Phase 2 */
 
 /* Your code here */
+@media print {
+  .page,
+  header {
+    visibility: hidden;
+  }
+  .story-box {
+    visibility: visible;
+    background-color: white;
+  }
+}
