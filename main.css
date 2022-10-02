@@ -95,6 +95,13 @@ header {
 
 /* ----- Phase 1 - Wide Screen ----- */
 
+@media (min-width: 1220px) {
+  .page {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
 /* Your code here */
 
 /* ===== PRINTING ===== */
